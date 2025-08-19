@@ -1,0 +1,3 @@
+- stepfunctions have no permission to invoke lambda
+- lambda have no permission to get secret manager
+- Bigsite database table access
