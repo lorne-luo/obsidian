@@ -1,10 +1,6 @@
 * Miro sharing diagram session really helps.
 * Catch up with peer before the PR review
 
-
-
-
-
 ## Datadog
 
 dashboard help
