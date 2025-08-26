@@ -48,3 +48,15 @@
 * Configuration
 
   * setup secret manager
+
+
+Prod release checklist
+
+- Architecture Review completed
+- Security Review completed
+- Does your Github actions pipeline incorporate Snyk and SonarCloud as stages prior to deployment?
+	- No Critical or High vulnerabilities in Snyk
+	- No use of GitHub Marketplace Actions
+	- All SonarCloud hotspots reviewed - High and Critical review issues resolved
+	- SonarCloud Coverage above 85%
+- Are all github pipelines secured with an environment gate that requires approval before deploying to production?

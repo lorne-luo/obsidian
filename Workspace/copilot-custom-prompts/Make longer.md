@@ -3,7 +3,7 @@ copilot-command-context-menu-enabled: true
 copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 1070
 copilot-command-model-key: ""
-copilot-command-last-used: 1755669689784
+copilot-command-last-used: 1755749589774
 ---
 Expand {} to twice its length by:
     1. Adding relevant details and examples
