@@ -1,9 +1,9 @@
 ---
 copilot-command-context-menu-enabled: true
 copilot-command-slash-enabled: true
-copilot-command-context-menu-order: 1109
+copilot-command-context-menu-order: 1001
 copilot-command-model-key: ""
-copilot-command-last-used: 1756175808503
+copilot-command-last-used: 1756176190343
 ---
 Rewrite {} as a learning note with these requirements:
     1. Extend it as a learning note, explain
