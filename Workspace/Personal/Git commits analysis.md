@@ -1,4 +1,13 @@
-# Heatmap
+My manager ask me: how can you proof you are actually working for the job when WFH?
+
+I dump the git reflog of repos I majority participated
+```
+git reflog --date=iso
+```
+
+During 2024-08-20 to 2025-07-23 ( around 200 working days exclude my holiday), I made 1590 git commits, which is average 8 commits per day.
+
+# Heatmap for my woking hour
 
 ```
 import seaborn as sns

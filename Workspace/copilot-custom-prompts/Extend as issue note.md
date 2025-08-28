@@ -1,13 +1,16 @@
 ---
 copilot-command-context-menu-enabled: true
 copilot-command-slash-enabled: false
-copilot-command-context-menu-order: 1002
+copilot-command-context-menu-order: 1001
 copilot-command-model-key: ""
-copilot-command-last-used: 1756258336480
+copilot-command-last-used: 1756176190343
 ---
-Rewrite {} as a learning note with these requirements:
+Rewrite {} as a problem solving note with these requirements:
     1. Extend it as a learning note, explain
-	    1. what's the knowledge we got
+	    1. what's the issue
+	    2. how we solve
+	    3. what experience we can conclude
+	    4. keep all related links
     2. Follow markdown format
     3. Use concise, impactful language
     4. Maintain the core message

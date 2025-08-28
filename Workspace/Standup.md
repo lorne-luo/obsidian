@@ -1,3 +1,13 @@
+# 2025-08-28
+Sorry I can attend standup due to having appointment this morning
+Yesterday fixed the test and deploy pipeline, it now works with the newly introduced container. But I am still waiting AWS Platform team to merge the container update, so I can refer the correct container tag.
+Today I will move to the AP-563 to refine the postgres batch insert.
+
+# 2025-08-27
+- most of time are in meeting
+- fix sam deploy pipeline, asked security team reviewed uv and added it into python's docker container
+- kicked of batch insert's ticket
+
 # 2025-08-26
 - fix sam deploy pipeline
 - simplified test configuration
