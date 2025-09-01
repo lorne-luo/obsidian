@@ -17,6 +17,7 @@
 		- improve  consistent of test data
 	- test coverage 95.72%
 	- how to test stepfunction definition
+	- notify to slack group
 	
 - UAT environment
 	- need a way to track bigsite schema change

@@ -1,7 +1,25 @@
+# 2025-08-30
+- checked through all data domain 's ingestion, they are commit in effective way
+- create auto_session decrator to replace the session_scope context manager
+
+# 2025-08-29
+- AP-563 reviewed  docs as sqlalchemy provided too many way to manipulate the db
+- did a benchmark to insert 300k CashTransaction in different ways
+	- ORM commit one by one: 930.96s
+	- ORM add into session one by one, commit together: 28.43s
+	- ORM session.session then commit: 29.97s
+	- Core Bulk save objects: 11.73s
+	- Core Bulk insert mappings: 7.96s
+	- Core normal insert: 8.85s
+- For ANZ transaction file ingestion it's good,  will review our ingestion code for other data domain, make sure it use effective way to commit db
+- before I created a auto session management, polish and add documentation for it, 
+#### Retro
+https://selfwealth.atlassian.net/wiki/spaces/CTP/pages/edit-v2/2551218177
+
 # 2025-08-28
 Sorry I can attend standup due to having appointment this morning
 Yesterday fixed the test and deploy pipeline, it now works with the newly introduced container. But I am still waiting AWS Platform team to merge the container update, so I can refer the correct container tag.
-Today I will move to the AP-563 to refine the postgres batch insert.
+Today I will move to the AP-563 to refine the postgres batch insert. 
 
 # 2025-08-27
 - most of time are in meeting
