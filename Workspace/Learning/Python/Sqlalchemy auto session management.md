@@ -107,3 +107,34 @@ with sessionmaker(bind=engine) with session:
 	run(session)
 	session.commit()
 ```
+
+
+## Implementation
+```python
+def auto_session_func(func):  
+    """  
+    auto session management decorator, apply to methods with a session argument  
+    - if session argument is None,        this decorator will create a new session(with transaction begin)        then pass to the origin method        when origin method finished the session will commit automatically    - if session argument is not None,        do nothing, call origin method directly    """  
+    actual_func = func  
+    if isinstance(func, (staticmethod, classmethod)):  
+        actual_func = getattr(func, "__func__")  
+  
+    @wraps(actual_func)  
+    def wrapper(*args, **kwargs):  
+        session = kwargs.get("session", None)  
+        is_commit = kwargs.get("is_commit", True)  
+        if session is None:  
+            with get_pg_session() as new_session:  
+                new_session.begin()  
+                kwargs["session"] = new_session  
+                result = actual_func(*args, **kwargs)  
+                if is_commit:  
+                    new_session.commit()  
+                return result  
+        else:  
+            return actual_func(*args, **kwargs)  
+  
+    return wrapper
+    
+
+```

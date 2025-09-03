@@ -1,3 +1,12 @@
+# 2025-09-02
+- merge a folder structure for ingestion, now it looks much tidier, as relocated lots of files, recommend you guys pull/merge remote main branch ASAP
+- deployed main branch to stg, but db migration failed it looks we missed a migration file, investigating 
+- sqlalchemy session refinement ticket, should be able raise PR today
+
+## new ticket
+- datadog dashboard for business team
+- distribution from trade table
+
 # 2025-08-30
 - checked through all data domain 's ingestion, they are commit in effective way
 - create auto_session decrator to replace the session_scope context manager
