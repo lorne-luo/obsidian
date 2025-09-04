@@ -5,6 +5,7 @@
 	- we have to approve 3 times to deploy to single aws env
 	- passing db password in base64 encoding between pipeline jobs
 	- accelerate by introduce container
+	- more slack notifications
 - Migrate old apps into the new platform
 	- class trade
 	- class cash
