@@ -19,7 +19,9 @@
 	- test coverage 95.72%
 	- how to test stepfunction definition
 	- notify to slack group
-	
+- Reconcilia
+	- match our custom metrics with data team's snowflake
+	- from our export trace back to the data source bigsite and s3, implement it as independent way
 - UAT environment
 	- need a way to track bigsite schema change
 	- create clean and consistent test data on stg

@@ -1,3 +1,10 @@
+# 2025-09-09
+- polish ap-563 session management approval according to feed, now it's already merged this morning
+- other guys to merge your working branch  with main, it have some global replacement, lots of file involve
+- raise PR for ap-572
+## todo
+- as first execution of prod , let's create datadog dashbaord for prod
+- 
 # 2025-09-02
 - merge a folder structure for ingestion, now it looks much tidier, as relocated lots of files, recommend you guys pull/merge remote main branch ASAP
 - deployed main branch to stg, but db migration failed it looks we missed a migration file, investigating 
