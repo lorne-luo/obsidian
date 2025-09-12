@@ -1,3 +1,19 @@
+# 2025-09-12
+- polished postgres orm model, remove investmentproduct as we dont use it anymore
+- fixed a varcher type length issue which found from prod, 
+- help shivendra to debug sftp server 
+- updated 
+# 2025-09-10
+- fixed FileIngestion dashbaord on datadog, db ingestion still have some custom metric
+- will sync prod dashbaord back to stg and dev
+- CF for deploy dd dashboard
+- discussed the unique issue,moved to feat/ap-598-ensure-unique-transaction-ids-for-cash-transaction
+# 2025-09-10
+- fix a bug in ANZ ingestion step function
+-  for Documents tag, added visible field and linkedrecords
+- help shivendra to solve state machine's issue
+- create prod dashboard
+
 # 2025-09-09
 - polish ap-563 session management approval according to feed, now it's already merged this morning
 - other guys to merge your working branch  with main, it have some global replacement, lots of file involve

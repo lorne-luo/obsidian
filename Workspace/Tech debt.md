@@ -39,3 +39,69 @@
 Personal
 - reduce Review time、Merge time
 - accelerate the deployment piepeline
+
+
+## AWS sso control:
+- ClassSupport group defined in `platform-sso-rbac/packages/api/src/manifest
+/sso-groups.ts`
+```
+{
+    notes: 'Class Prod support group',
+    name: 'ClassSupport',
+    awsAccount: 'PCT_PRD',
+    description: 'SelfWealth Managed SSO Group for Class Support team',
+    members: [
+      'lorne.luo'
+    ],
+  },
+```
+- Permission defined in `platform-aws-foundations/packages/org-iam-roles/template.yml`
+```yaml
+Statement:
+          - Sid: ListStepFunctions
+            Effect: Allow
+            Resource: "*"
+            Action:
+              - states:List*
+              - states:Describe*
+              - states:Get*
+          - Sid: ExecuteStepFunctions
+            Effect: Allow
+            Resource:
+              - arn:aws:states:ap-southeast-2:846765181387:stateMachine:sw-classdatafeed-stepfunction-prod
+              - arn:aws:states:ap-southeast-2:846765181387:stateMachine:b2b-datafeeds-cash-transactions-stepfunction-prod
+            Action:
+              - states:StartExecution
+              - states:StartSyncExecution
+```
+
+## Exporter class
+
+Is it possible to reuse these portfolio ids between ?
+We called `get_consented_portfolios` 4-5 times for per export.
+
+I think we can improve it by extracting all data domain export funcs as an Exporter class, to make it easier to share data between data domains.
+
+```
+class Exporter:
+    newly_consented_portfolios=None
+    removed_consented_portfolios=None
+    current_consented_portfolios=None    
+
+    def init():
+          newly_consented_portfolios, removed_consented_portfolios, current_consented_portfolios = DbIngestion.get_consented_portfolios)
+
+    def create_movement_transactions_element()
+
+    def create_investment_holdings_element()
+
+    def create_account_details_element()
+    
+    def create_account_balances()
+    
+    def generate_doc():
+         """entry"""
+         return E.EPIDataResponse(
+              ....
+         )
+```
