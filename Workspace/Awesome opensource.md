@@ -1,6 +1,4 @@
 
-
-
 | Category              | Link                                                   | Description                                                                                                                                                                                                                                       |
 | --------------------- | ------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Web<br>Crawl          | [crawl4ai](https://github.com/unclecode/crawl4ai)      | [Crawl4AI](https://docs.crawl4ai.com/core/installation/) turns the web into clean, LLM ready Markdown for RAG, agents, and data pipelines. Fast, controllable, battle tested by a 50k+ star community.                                            |
@@ -10,5 +8,5 @@
 | Audio<br>Video        | Wav2bar                                                |                                                                                                                                                                                                                                                   |
 |                       | Buzz                                                   |                                                                                                                                                                                                                                                   |
 | Audio                 | UVR                                                    |                                                                                                                                                                                                                                                   |
-|                       |                                                        |                                                                                                                                                                                                                                                   |
+|                       | Pydantic-AI                                            | pydantic team built lib for AI chat app                                                                                                                                                                                                           |
 
