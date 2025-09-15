@@ -11,10 +11,14 @@
             "id": "8f4ee4d7050f6ef1",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Workspace/Personal/Youtube.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Youtube"
             }
           }
         ]
@@ -163,8 +167,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "31daed632ad8381b",
+  "active": "8f4ee4d7050f6ef1",
   "lastOpenFiles": [
+    "Workspace/Personal/无标题笔记.md",
+    "Workspace/Personal/Youtube.md",
+    "Workspace/Personal/Job.md",
+    "Workspace/Learning/Python/Python Version Selection.md",
+    "Workspace/Learning/Nodejs SyntaxGuide.md",
+    "Workspace/Awesome opensource.md",
     "Untitled.base"
   ]
 }
