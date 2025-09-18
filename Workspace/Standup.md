@@ -1,3 +1,13 @@
+# 2025-09-18
+- fix the line change issue from bigsite arm description
+- The patch deployed, and retriggered the process to deliver
+- bugfix and refinement PR for BGL
+	- refined step function to show each lambda's output in the final success node
+	- fixed custom metrics for investment trade
+
+# 2025-09-17
+- updated numeric field decimal places for EPI documents
+- enhanced a series of test case
 # 2025-09-12
 - polished postgres orm model, remove investmentproduct as we dont use it anymore
 - fixed a varcher type length issue which found from prod, 
