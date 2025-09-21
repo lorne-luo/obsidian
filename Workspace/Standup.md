@@ -1,3 +1,8 @@
+# 2025-09-22
+- merged the EPI data format fix
+- fixed slack notification pipeline
+- updated BGL UAT host, still need the folder path
+
 # 2025-09-18
 - fix the line change issue from bigsite arm description
 - The patch deployed, and retriggered the process to deliver
