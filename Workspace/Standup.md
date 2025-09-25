@@ -1,3 +1,10 @@
+# 2025-09-25
+- investigate why ANZ cash transaction not been exported
+- Migrate 2 test users to ACMC
+- Prepare ACMC ANZ transaction files
+- Also uploaded CashActive transaction file for historic data feed
+- Help Shivendra for alembic issue
+
 # 2025-09-22
 - merged the EPI data format fix
 - fixed slack notification pipeline
