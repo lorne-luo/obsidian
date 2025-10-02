@@ -16,4 +16,5 @@ Error raised in GHA SAM deployment:
 
 ## Solution:
 
-Manually delete `CLASS_SFTP_HOST` env var from Lambda and rerun SAM deploy
+- Manually delete `CLASS_SFTP_HOST` env var from Lambda and rerun SAM deploy
+- Introduce some essential code change into the build package

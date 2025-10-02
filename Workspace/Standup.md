@@ -1,3 +1,16 @@
+# 2
+# 2025-09-30
+- setup test file on test sftp server, still have issue, we may need aws support team help
+- prepare another day's ACMC file, it looks properly processed, I pushed a conciliation lambda to stg, it programically verified the ANZ transaction, looks all good
+- today will prepare a Cashactive file
+- reconciliation:
+	- min(cash_transaction.line_number) should be 2
+	- verify positive/negtive for transaction type
+# 2025-09-26
+- investigate
+- export postgres id as id for EPI cash transaction
+- fixed current income-entitlement
+- bugfix PR for alembix downgrade
 # 2025-09-25
 - investigate why ANZ cash transaction not been exported
 - Migrate 2 test users to ACMC
