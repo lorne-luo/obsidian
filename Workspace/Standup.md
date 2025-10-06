@@ -1,4 +1,14 @@
-# 2
+# 2025-10-03
+- Catched up with JB, the duplication source file cant be resolved
+- We have to update our implementation which can detect and skip the duplication, the current batch commit will be updated
+	- add year suffix for Reference
+	- detect duplication and skip
+
+# 2025-10-01
+- created some script to dump the duplicated anz transaction id, upload the files to sharepoint
+- talked to Michael J to check these duplication ids
+- add a ticket for Out of Memory raised from ARM description ingestion
+- update anz ingestion part, to skip the 
 # 2025-09-30
 - setup test file on test sftp server, still have issue, we may need aws support team help
 - prepare another day's ACMC file, it looks properly processed, I pushed a conciliation lambda to stg, it programically verified the ANZ transaction, looks all good
