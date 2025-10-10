@@ -1,3 +1,8 @@
+# 2025-10-06
+- investigate the test sftp server issue
+- prefix cashactive transaction ID with year for uniqueness
+- duplicate transaction IDs
+- for acmc convert  hex to base62
 # 2025-10-03
 - Catched up with JB, the duplication source file cant be resolved
 - We have to update our implementation which can detect and skip the duplication, the current batch commit will be updated
