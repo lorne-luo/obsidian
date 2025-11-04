@@ -3,7 +3,7 @@ copilot-command-context-menu-enabled: true
 copilot-command-slash-enabled: false
 copilot-command-context-menu-order: 1002
 copilot-command-model-key: ""
-copilot-command-last-used: 1756687632744
+copilot-command-last-used: 1760968039510
 ---
 Rewrite {} as a learning note with these requirements:
     1. Extend it as a learning note, explain
