@@ -33,7 +33,7 @@
   "defaultSaveFolder": "copilot/copilot-conversations",
   "defaultConversationTag": "copilot-conversation",
   "autosaveChat": true,
-  "generateAIChatTitleOnSave": true,
+  "generateAIChatTitleOnSave": false,
   "includeActiveNoteAsContext": true,
   "defaultOpenArea": "editor",
   "defaultSendShortcut": "enter",

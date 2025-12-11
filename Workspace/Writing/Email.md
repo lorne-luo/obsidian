@@ -5,4 +5,3 @@ I just we have a misconfiguration the historical data, that may caused we also s
 
 The file BGL-ASW_20251209_SWADVISERS_009.xml actually include these data:
 
-
