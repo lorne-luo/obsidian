@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Workspace/Writing/Email.md",
+                "file": "Workspace/Learning/Kotlin Basic.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Email"
+              "title": "Kotlin Basic"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "node",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -181,10 +181,12 @@
   },
   "active": "24e04e502cb848d1",
   "lastOpenFiles": [
+    "Workspace/Learning/Nodejs Syntax Guide.md",
+    "Workspace/Learning/Kotlin Basic.md",
+    "Workspace/Learning/Untitled",
+    "Workspace/Writing/Email.md",
     "Workspace/Pasted image 20251211133538.png",
     "Workspace/Learning/Platform ad-hoc historical feed issue.md",
-    "Workspace/Learning/Untitled.md",
-    "Workspace/Learning/Nodejs Syntax Guide.md",
     "Workspace/copilot-custom-prompts/Translate to Chinese.md",
     "Workspace/copilot-custom-prompts/Summarize.md",
     "Workspace/copilot-custom-prompts/Simplify.md",
@@ -207,7 +209,6 @@
     "copilot-custom-prompts/Rewrite as tweet thread.md",
     "copilot-custom-prompts/Remove URLs.md",
     "copilot-custom-prompts/Make longer.md",
-    "copilot-custom-prompts/Generate table of contents.md",
     "copilot-custom-prompts",
     "copilot/copilot-conversations",
     "copilot/copilot-custom-prompts",
@@ -215,7 +216,6 @@
     "Workspace/copilot/copilot-custom-prompts",
     "Workspace/copilot/copilot-conversations",
     "Workspace/copilot",
-    "Untitled 1.base",
-    "Workspace/FilesTable.base"
+    "Untitled 1.base"
   ]
 }
